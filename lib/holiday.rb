@@ -70,7 +70,8 @@ newArr=[]
 holiday_hash.each do |season, holiday|
   holiday.each do |day, supplize|
     supplize.each do |supply|
-      su
+      if supply == "BBQ"
+        newArr << 
 end
 
 
