@@ -72,6 +72,11 @@ holiday_hash.each do |season, holiday|
     supplize.each do |supply|
       if supply == "BBQ"
         newArr << day
+      end
+    end
+  end
+end
+newArr
 end
 
 
